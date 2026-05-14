@@ -1,0 +1,8 @@
+# C/C++ 빌드 결과물 무시
+*.o
+*.out
+sensor_agent
+
+# 에디터 및 OS 임시 파일 무시
+.DS_Store
+*.swp
