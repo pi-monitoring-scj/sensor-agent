@@ -15,7 +15,7 @@
 
 // --- MQTT 브로커 설정 ---
 // TODO: 향후 config 파일이나 환경변수로 분리할 부분
-#define ADDRESS "tcp://localhost:1883"     // Mosquitto 브로커 주소 (우선 로컬 기준)
+#define ADDRESS "tcp://192.168.1.114:1883" // Mosquitto 브로커 주소 (우선 로컬 기준)
 #define CLIENTID "RaspberryPi_SensorAgent" // 브로커가 클라이언트를 식별할 ID
 #define TOPIC "sensor/mpu6050/raw"         // 데이터를 보낼 경로(주제)
 #define QOS 1                              // 서비스 품질 (최소 한 번 전달 보장)
